@@ -1,0 +1,91 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+.table .mini-img img {
+    width: 60px;
+}
+.table .num {
+    width: 4rem;
+}
+
+.le-c{
+    color: #fffefe;
+}
+h4 a.btn-slct{
+    padding: 2px 3px 0 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fffefe;
+    background-color: rgb(187, 184, 184);
+}
+h4 a.btn-slct:hover{
+    background-color:rgb(211, 204, 204)
+
+
+}
+.payType{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:24px;
+    padding :px;
+    width: 100%;
+  
+}
+ div.payType button#cash{
+
+  padding:0 3rem;
+  margin-right:2rem
+}
+
+  div.payType button{
+    background-color:rgba(244, 239, 239, 0.707); 
+
+color: black;
+border-radius: 10px;
+margin-bottom:4rem
+ }
+
+div.payType button:hover{
+    background-color: grey;
+color: #fffefe
+  }
+
+form#payBill{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+ 
+}
+option{
+    padding: 8px 80px;
+
+}
+.slctPay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   font-size: 2rem;
+   padding: 10px 20px;
+
+}
+.remove{
+    background-color:rgba(244, 239, 239, 0.707); 
+
+color: black;
+border-radius: 4px;
+padding: 0.5rem ;
+}
+.remove:hover{
+    background-color: rgb(228, 175, 175);
+    color:#fffefe;
+    padding: 0.7rem ;
+    
+}
